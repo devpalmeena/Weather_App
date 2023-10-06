@@ -1,0 +1,95 @@
+/* Reset some default styles for better consistency */
+body,
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a stylish background color and text color */
+body {
+    background-color: #3498db;
+    /* Change this to your desired background color */
+    color: #ffffff;
+    /* Set the text color to white for contrast */
+    font-family: Arial, sans-serif;
+    /* Use a web-safe font */
+}
+
+/* Style the header */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Add a subtle text shadow */
+}
+
+/* Style the main content container */
+#weatherContainer {
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Add a semi-transparent background color */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    /* Add a subtle shadow effect */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    /* Center the container horizontally */
+    max-width: 600px;
+    /* Limit the container's width for better readability */
+}
+
+/* Style the input and search button */
+#searchContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Add a semi-transparent white background */
+}
+
+#searchBtn {
+    background-color: #e74c3c;
+    /* Change this to your desired button color */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Add a smooth hover effect */
+}
+
+#searchBtn:hover {
+    background-color: #c0392b;
+    /* Change this to the hover color */
+}
+
+/* Style the weather details */
+#weatherDescription {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#cityHeader {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#weatherMain {
+    margin-top: 10px;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    /* Add a subtle text shadow */
+}
+
+/* Add more styles as needed */
